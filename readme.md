@@ -1,8 +1,15 @@
-# Kat - Koncatenate FILE(s) to standard output. ![Rust](https://github.com/0kalekale/kat/workflows/Rust/badge.svg)
+# Kat - Koncatenate FILE(s) to standard output. ![Build](https://github.com/0kalekale/kat/workflows/Rust/badge.svg)
 
 simple implementation of cat, work in progress
 
-### Build
+### Install
+```sh
+$ make
+$ make install # as root
 ```
-cargo build --release
+
+### Uninstall
+```sh
+$ make uninstall # as root
 ```
+

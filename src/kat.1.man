@@ -1,0 +1,13 @@
+.\" Manpage for kat.
+.\" Contact kalekale.anon@gmail.com to correct errors or typos.
+.TH man 8 "1 Feb 2021" "0.1.0" "kat man page"
+.SH NAME
+kat \- Koncatenate FILE(s) to standard output. 
+.SH SYNOPSIS
+kat [FILE]s...
+.SH DESCRIPTION
+Simple implementation of cat. Concatenate FILE(s) to standard output. does not work with binary files (for now). 
+.SH OPTIONS
+The kat does not take any options for now.
+.SH AUTHOR
+0kalekale (kalekale.anon@gmail.com)
