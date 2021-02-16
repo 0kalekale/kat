@@ -6,8 +6,8 @@ kat \- Koncatenate FILE(s) to standard output.
 .SH SYNOPSIS
 kat [FILE]s...
 .SH DESCRIPTION
-Simple implementation of cat. Concatenate FILE(s) to standard output. does not work with binary files (for now). 
+Simple implementation of cat. Concatenate FILE(s) to standard output. takes input from either filename as arguements or stdin . does not work with binary. 
 .SH OPTIONS
-The kat does not take any options for now.
+-h or --help for help page
 .SH AUTHOR
 0kalekale (kalekale.anon@gmail.com)
